@@ -1,7 +1,12 @@
 import React from 'react';
+import { Button, Container } from 'react-bootstrap';
 
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <Container>
+      <Button variant="primary">Primery button</Button>
+    </Container>
+  );
 };
 
 export default Main;
