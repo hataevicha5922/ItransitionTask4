@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import { Button, Container } from 'react-bootstrap';
 import TableComponent from '../../components/table/Table';
 import ToolBar from '../../components/toolBar/ToolBar';
 
@@ -8,6 +8,7 @@ const Main = () => {
     <Container>
       <ToolBar />
       <TableComponent />
+      <Button variant="primary">Primery button</Button>
     </Container>
   );
 };
