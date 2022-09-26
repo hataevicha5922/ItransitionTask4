@@ -10,9 +10,9 @@ function ToolBar() {
     <Container>
       <Row>
         <Col>
-          <Button variant="outline-dark" size="sm">
+          {/* <Button variant="outline-dark" size="sm">
             Check
-          </Button>
+          </Button> */}
         </Col>
         <Col md="auto">
           {' '}
