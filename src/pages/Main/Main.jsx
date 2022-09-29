@@ -1,13 +1,15 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Table from '../../components/table/Table';
 import ToolBar from '../../components/toolBar/ToolBar';
+import styles from './Main.module.scss';
 
 const Main = () => {
   return (
     <Container>
-      <Table />
+      <h2 className={styles.title}>Users</h2>
       <ToolBar />
+      <Table />
     </Container>
   );
 };
