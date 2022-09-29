@@ -4,26 +4,26 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import styles from './ToolBar.module.scss';
 
 function ToolBar() {
   return (
     <Container>
-      <Row>
-        <Col>
-          {/* <Button variant="outline-dark" size="sm">
-            Check
-          </Button> */}
-        </Col>
+      <Row className={styles.wrapper}>
+        <Col></Col>
         <Col md="auto">
           {' '}
-          <Button variant="outline-dark" size="sm">
-            Block
-          </Button>
+          <Button variant="outline-secondary">Block</Button>
         </Col>
         <Col xs lg="2">
           <Row>
-            <Col>1 of 2</Col>
-            <Col>2 of 2</Col>
+            <Col>
+              {' '}
+              <Button variant="secondary">UnBlock</Button>{' '}
+            </Col>
+            <Col>
+              <Button variant="dark">Delete</Button>
+            </Col>
           </Row>
         </Col>
       </Row>

@@ -1,0 +1,19 @@
+.wrapper_btn {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.link_btn {
+  border: 1px solid #858181;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #5a5353;
+  text-decoration: none;
+  margin-right: 1rem;
+
+  &:hover {
+    color: #fff;
+    background: #a59f9f;
+  }
+}
